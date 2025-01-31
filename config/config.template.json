@@ -1,0 +1,17 @@
+{
+  "mongoURI": "mongodb://localhost:27017/mern_db",
+  "jwtSecret": "your-jwt-secret-key-here",
+  "jwtExpiration": "24h",
+  "github": {
+    "clientId": "your-github-client-id",
+    "clientSecret": "your-github-client-secret"
+  },
+  "email": {
+    "from": "noreply@devbook.com",
+    "smtp": {
+      "host": "smtp.example.com",
+      "port": 587,
+      "secure": false
+    }
+  }
+}
